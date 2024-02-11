@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="HESAP MAKİNESİ"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/buttonAC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="AC"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/buttonSilme"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="DEL"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="7"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/buttonToplama"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+            <Button
+                android:id="@+id/buttonEsittir"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_arka_plan"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sadece Toplama İşlemi Yapabilmektedir!"
+        android:textColor="@color/buttonColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Sonuç"
+        android:textAlignment="center"
+        android:textColor="@color/buttonColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGirilenSayilar" />
+
+    <TextView
+        android:id="@+id/textViewGirilenSayilar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:hint="Sayı Giriniz!"
+        android:textAlignment="center"
+        android:textColor="@color/buttonColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSonuc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
